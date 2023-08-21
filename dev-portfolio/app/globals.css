@@ -6,8 +6,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root{
-
-    
+    --primary-color: #040000;
+    --text-color: #ffae00;
+    --accent-red: #e8411e;
+    --accent-blue: #0c64f6;
+    --accent-lblue: #6ba9f2;
+    --white-color: #f3eeec;
 }
 
 *{
@@ -18,7 +22,9 @@
 
 body, html{
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: black;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--accent-red);
 }
+
+
 
